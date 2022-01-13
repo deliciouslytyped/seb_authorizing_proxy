@@ -53,6 +53,7 @@ fi
 # TODO consider writing a firefox addon instead, it would certainly ease deployment.
 # TODO maybe bother to link the appropriate sections of upstream code where appropriate
 # TODO safety note about test getting locked when?
+# TODO add some CLI flags; dump decrypted seb, extract signatures, jtr target export
 
 import sys, os, re, base64, json, hmac
 from collections import defaultdict, OrderedDict
